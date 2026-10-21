@@ -1,0 +1,77 @@
+{
+  "1abb67e5-a899-4f6f-b9ef-a767995ffaca": {
+    "id": "1abb67e5-a899-4f6f-b9ef-a767995ffaca",
+    "filename": "About_AAU.docx",
+    "file_hash": "d3b9cc0a6f429215e3739c14f809b4bf4029f1963496b55366dcdaf3e65ef105",
+    "title": "About Aau",
+    "file_type": ".docx",
+    "file_size": 58530,
+    "chunk_count": 70,
+    "access_roles": [
+      "public"
+    ],
+    "created_at": "2026-10-21T04:10:38.152102+00:00",
+    "status": "ingested",
+    "error_message": null
+  },
+  "590c9c44-5df6-4b65-be39-77f9d15607b0": {
+    "id": "590c9c44-5df6-4b65-be39-77f9d15607b0",
+    "filename": "library_resources.docx",
+    "file_hash": "8988cb19289b128c01a5f3d067941daa1e9665fb47faf206b7308ded6a01793c",
+    "title": "Library Resources",
+    "file_type": ".docx",
+    "file_size": 23148,
+    "chunk_count": 29,
+    "access_roles": [
+      "public"
+    ],
+    "created_at": "2026-10-21T04:10:38.406404+00:00",
+    "status": "ingested",
+    "error_message": null
+  },
+  "a21e6ca3-a2ba-4946-85c3-9608e53ab458": {
+    "id": "a21e6ca3-a2ba-4946-85c3-9608e53ab458",
+    "filename": "research_guidelines.docx",
+    "file_hash": "224994512bb4ed5999000ff0e9a7600f9882dd0ffcc3be364b08e85b09755f93",
+    "title": "Research Guidelines",
+    "file_type": ".docx",
+    "file_size": 48547,
+    "chunk_count": 27,
+    "access_roles": [
+      "public"
+    ],
+    "created_at": "2026-10-21T04:10:38.731104+00:00",
+    "status": "ingested",
+    "error_message": null
+  },
+  "a51bbb81-fbcf-4193-bcdd-9279eff3f301": {
+    "id": "a51bbb81-fbcf-4193-bcdd-9279eff3f301",
+    "filename": "student_handbook.docx",
+    "file_hash": "29e0b5e302fce5856cb274351ac2a33f63385a66453dcb49bbf6763a8d754d8b",
+    "title": "Student Handbook",
+    "file_type": ".docx",
+    "file_size": 39764,
+    "chunk_count": 51,
+    "access_roles": [
+      "public"
+    ],
+    "created_at": "2026-10-21T04:10:39.314277+00:00",
+    "status": "ingested",
+    "error_message": null
+  },
+  "8cd7c890-bd5f-463a-ae34-000f6f670e0a": {
+    "id": "8cd7c890-bd5f-463a-ae34-000f6f670e0a",
+    "filename": "university_policies.docx",
+    "file_hash": "c97a1b2529adca603c4f6d676b26f1786dcf5e0e22de8a5e274f029f84efa348",
+    "title": "University Policies",
+    "file_type": ".docx",
+    "file_size": 34669,
+    "chunk_count": 48,
+    "access_roles": [
+      "public"
+    ],
+    "created_at": "2026-10-21T04:10:39.842751+00:00",
+    "status": "ingested",
+    "error_message": null
+  }
+}

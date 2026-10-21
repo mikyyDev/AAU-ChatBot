@@ -1,0 +1,187 @@
+# ==============================================================================
+# AAU Chatbot Project - Professional .gitignore
+# Covers Python (FastAPI/Chroma), Node.js (Vite/Next.js), OS & IDE artifacts
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables & Secrets (CRITICAL FOR SECURITY)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+*.p12
+
+# Explicitly track example environment files
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ------------------------------------------------------------------------------
+# 2. Python & Virtual Environments
+# ------------------------------------------------------------------------------
+# Bytecode & C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Packaging & Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit Testing, Coverage & Type Checking
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.tox/
+.nox/
+.ruff_cache/
+.hypothesis/
+
+# ------------------------------------------------------------------------------
+# 3. Vector Databases & Local RAG Data
+# ------------------------------------------------------------------------------
+# ChromaDB persistence directories
+chroma_db/
+backend/chroma_db/
+chroma_storage/
+backend/chroma_storage/
+backend/data/chroma/
+test_chroma/
+
+# Database files & temporary metadata
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.parquet
+*.tmp
+test_metadata.json
+documents_metadata.json.tmp
+
+# ------------------------------------------------------------------------------
+# 4. Frontend & Node.js (Vite / Next.js)
+# ------------------------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs
+frontend/dist/
+dist/
+.next/
+out/
+.turbo/
+build/
+
+# Node logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Framework caches
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+next-env.d.ts
+
+# ------------------------------------------------------------------------------
+# 5. Operating System Specific
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ------------------------------------------------------------------------------
+# 6. IDEs & Editors
+# ------------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Miscellaneous editors
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-project
+*.sublime-workspace
